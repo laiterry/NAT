@@ -1,0 +1,8 @@
+zip assign2.zip checksum.c checksum.h Makefile nat.c run.sh
+
+uuencode assign2.zip assign2.zip | mailx -s "PROG2 1155043805" csci4430@cse.cuhk.edu.hk
+
+
+TCP FINISHED 之后要FREE PORT
+
+时间改成30秒

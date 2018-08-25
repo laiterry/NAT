@@ -1,0 +1,13 @@
+a : Private 10.4.17.1   Public : 10.3.1.17 
+b:  Private 10.4.17.7   
+c:  Private 10.4.17.5   
+
+tcp
+nc -l -p 11000
+nc 137.189.90.155 11001
+
+udp
+nc -l -p 11000 -u
+nc 137.189.90.155 11001 -u
+
+ssh -p 13017 csci3150@projgw
